@@ -1,0 +1,11 @@
+# robots.txt for GPA Guardians
+
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+
+# Allow everything else
+Allow: /
+
+Sitemap: https://gpasite.vercel.app/sitemap.xml
